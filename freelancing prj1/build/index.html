@@ -22,9 +22,9 @@
   @scroll.window="stickyMenu = (window.pageYOffset > 20) ? true : false"
 >
   <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
-    <div class="vd to/4 tc wf yf">
+    <div style ="padding: 0%;" ="vd to/4 tc wf yf">
       <a href="index.html">
-        <h1 >Astute Lex Servicado </h1>
+        <h1 style="font-size: revert; padding: 0%; ">Astute Lex Servicado </h1>
       </a>
 
       <!-- Hamburger Toggle BTN -->
@@ -69,7 +69,7 @@
             <!-- Dropdown Start  link vala-->
             <ul class="a" :class="{ 'tc': dropdown }">
 
-              <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">LeXi Ai
+              <li><a href="index.html" class="xl" :class="{ 'mk': page === 'blog-single' }">LeXi Ai
               </a></li>
               <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">Clause Ai
               </a></li>
@@ -158,13 +158,13 @@
           <div class="tc _o">
             <div class="animate_left jn/2">
               <styles class="fk vj zp or kk wm wb">Astute Lex Servicado</h1>
-              <p class="fq">
+              <p style="font-size: large;">
                 Simplifying Complexity, Amplifying Efficiency
                 </h2>
               </p>
 
               <div class="tc tf yo zf mb">
-                <a href="#" class="ek jk lk gh gi hi rg ml il vc _d _l"
+                <a style="font-size: medium;" class="ek jk lk gh gi hi rg ml il vc _d _l"
                   >Explore Us</a
                 >
 
@@ -217,20 +217,71 @@
             </div>
 
             <!-- About Content -->
-            <div class="animate_right jn/2">
+            <div style="font-size: x-large;"   ="animate_right jn/2">
 
-              <h2 class="fk vj zp pr kk wm qb">We help you to transform.</h2>
+              <h2 class="fk vj zp pr kk wm qb"></h2>
               <ul >
                 <div style=" padding: 5px;
                 margin-top: 10px;" >
-               <li>Save 80% of your time</li>
+               <li></li>
               </div>
                 <div style="margin-top: 10px; padding: 5px;" >
-               <li>Automate 60% manual task</li>
+               <li></li>
               </div>
                 <div style=" margin-top: 10px; padding: 5px;" >
-               <li>Improve 90% of Accuracy.</li>
+               <li></li>
               </div>
+<!-- vwncekjvwkvw -->
+
+<div
+          x-data="{ sectionTitle: `We help you to transform.`, sectionTitleText: ``}"
+        >
+          <div class="animate_top bb ze rj ki xn vq">
+    <h2
+            x-text="sectionTitle"
+            class="fk vj pr kk wm on/5 gq/2 bb _b"
+    >
+    </h2>
+    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+</div>
+
+
+        </div>
+        <!-- Section Title End -->
+
+        <div class="bb ze ki xn yq mb en">
+          <div class="wc qf pn xo ng">
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-04.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">Save 80% of your time</h4>
+              <p></p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-05.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b">Automate 60% manual task</h4>
+              <p></p>
+            </div>
+
+            <!-- Service Item -->
+            <div class="animate_top sg oi pi zq ml il am cn _m">
+              <img src="images/icon-06.svg" alt="Icon" />
+              <h4 class="ek zj kk wm nb _b"> Improve 90% of Accuracy.</h4>
+              <p></p>
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </section>
+<!--
+sknbksbfdkvhbdsf -->
+
                <!-- <li> Automate 60% manual task </li> -->
                <!-- <li> Improve 90% of Accuracy.</li> -->
               </ul>
@@ -540,7 +591,9 @@
             </div>
 
             <div class="animate_top w-full nn/5 vo/3 vk sg hh sm yh tq">
-              <form action="https://formbold.com/s/unique_form_id" method="POST">
+              <form action="https://api.web3forms.com/submit" method="POST"" method="POST">
+                <!-- change  -->
+                <input type="hidden" name="access_key" value="f04851fd-32e6-447d-9932-974e66acab3d">
                 <div class="tc sf yo ap zf ep qb">
                   <div class="vd to/2">
                     <label class="rc ac" for="fullname">Full name</label>
@@ -598,10 +651,12 @@
                     id="message"
                     class="vd ph sg zk xm _g ch pm hm dm dn em pl/50 ci"
                   ></textarea>
-                </div>
-
-                <div class="tc xf">
-                  <button class="vc rg lk gh ml il hi gi _l">Send Message</button>
+                </div >
+                <div class="h-captcha" data-captcha="true"></div>
+                <br>
+                <div  class="tc xf">
+                  <button type="submit"
+                  class="ek jk lk gh gi hi rg ml il vc _d _l">Send Message</button>
                 </div>
               </form>
             </div>
@@ -808,4 +863,5 @@
       };
     </script>
   <script defer src="bundle.js"></script></body>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
 </html>
